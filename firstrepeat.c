@@ -8,6 +8,7 @@ int main(){
     {
        for(j=i+1;j<n;j++){
            if(a[i]==a[j]){
+               
             printf("%d ",a[i]);
             return 0;
               
@@ -15,6 +16,7 @@ int main(){
        }
        
     }
+    printf("unique");
        /* for(i=0;i<n;i++){
             if(a[i]!=-1)
             printf("%d ",a[i]);
