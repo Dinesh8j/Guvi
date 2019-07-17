@@ -16,9 +16,9 @@ for(i=0;i<n-1;i++){
     }
 }
 if(found==0)
-printf("NO");
+printf("no");
 else
-printf("YES");
+printf("yes");
 
 	return 0; 
 } 
