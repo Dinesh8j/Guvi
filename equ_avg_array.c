@@ -10,10 +10,9 @@ for(i=0;i<n-1;i++){
     right=0;
     for(j=i+1;j<n;j++){
         right=right+a[j];
+    }
         if(left*(n-i-1)==right*(i+1)){
             found=1;
-            break;
-        }
     }
 }
 if(found==0)
