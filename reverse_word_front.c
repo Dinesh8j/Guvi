@@ -19,7 +19,8 @@ int main() {
 	        sub[c++]=str[i];
 	    }
 	}
-	for(i=len-1;str[i]!=35;i--)
-	printf("%c",str[i]);
+i=len-1;
+while(str[i]!=35&&i!=-1)
+	printf("%c",str[i--]);
 	return 0;
 }
